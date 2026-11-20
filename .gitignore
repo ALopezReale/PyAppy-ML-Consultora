@@ -1,0 +1,27 @@
+# Entornos virtuales
+PyAppy/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno / credenciales
+.env
+
+# Sistema
+.DS_Store
+
+# Datos y modelos pesados (opcional)
+data/**
+!data/*/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.pkl
+
+# Claude
+CLAUDE.md
